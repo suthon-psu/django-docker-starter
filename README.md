@@ -20,3 +20,9 @@ docker exec -it dj-web python manage.py migrate
 
 ** This project is initialized using
 docker-compose run web django-admin startproject dj_web .
+
+**to use with visual studio code
+>> pip3 install pylint-django
+pylintArgs
+1. --load-plugins=pylint_django
+2. --disable=C0111
